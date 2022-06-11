@@ -97,13 +97,17 @@ function App() {
             <a
               href="https://www.linkedin.com/in/safakyildiz/"
               class="fa fa-linkedin"
-            ></a>{" "}
+            >
+              {" "}
+            </a>{" "}
             |
-            <a
-              href="https://twitter.com/shafakyildiz"
-              class="fa fa-twitter"
-            ></a>{" "}
-            |<a href="https://github.com/shafakyildiz" class="fa fa-github"></a>
+            <a href="https://twitter.com/shafakyildiz" class="fa fa-twitter">
+              {" "}
+            </a>{" "}
+            |
+            <a href="https://github.com/shafakyildiz" class="fa fa-github">
+              {" "}
+            </a>
           </div>
           <i className="footer-price">Prices are valid for Ankara, Turkey</i>
         </footer>
