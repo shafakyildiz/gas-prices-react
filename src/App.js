@@ -93,9 +93,12 @@ function App() {
         </div>
         <footer className="footer">
           <p>Developer: Şafak Yıldız</p>
-          <p>
-            <a href="mailto:safakyildiz95@gmail.com">Send an email</a>
-          </p>
+          <a
+            href="https://www.linkedin.com/in/safakyildiz/"
+            class="fa fa-linkedin"
+          ></a>
+          <a href="https://twitter.com/shafakyildiz" class="fa fa-twitter"></a>
+          <a href="https://github.com/shafakyildiz" class="fa fa-github"></a>
           <i className="footer-price">Prices are valid for Ankara, Turkey</i>
         </footer>
       </div>
