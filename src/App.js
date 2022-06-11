@@ -53,42 +53,51 @@ function App() {
   }, []);
   return (
     <div className="App">
-      <div className="benzin-prices">
-        <h1>Benzin Fiyatları</h1>
-        <ul>
-          {benzinPrices.map((item) => {
-            console.log(item);
-            return (
-              <li>
-                {item.marka} - {item.benzin} ₺
-              </li>
-            );
-          })}
-        </ul>
-      </div>
-      <div className="diesel-prices">
-        <h1>Dizel Fiyatları</h1>
-        <ul>
-          {dieselPrices.map((item) => {
-            return (
-              <li>
-                {item.marka} - {item.dizel} ₺
-              </li>
-            );
-          })}
-        </ul>
-      </div>
-      <div className="lpg-prices">
-        <h1>LPG Fiyatları</h1>
-        <ul>
-          {lpgPrices.map((item) => {
-            return (
-              <li>
-                {item.marka} - {item.lpg} ₺
-              </li>
-            );
-          })}
-        </ul>
+      <div className="wrapper">
+        <div className="benzin-prices">
+          <h1>Benzin Fiyatları</h1>
+          <ul>
+            {benzinPrices.map((item) => {
+              console.log(item);
+              return (
+                <li>
+                  {item.marka} - {item.benzin} ₺
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+        <div className="diesel-prices">
+          <h1>Dizel Fiyatları</h1>
+          <ul>
+            {dieselPrices.map((item) => {
+              return (
+                <li>
+                  {item.marka} - {item.dizel} ₺
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+        <div className="lpg-prices">
+          <h1>LPG Fiyatları</h1>
+          <ul>
+            {lpgPrices.map((item) => {
+              return (
+                <li>
+                  {item.marka} - {item.lpg} ₺
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+        <footer className="footer">
+          <p>Developer: Şafak Yıldız</p>
+          <p>
+            <a href="mailto:safakyildiz95@gmail.com">Send an email</a>
+          </p>
+          <i className="footer-price">Prices are valid for Ankara, Turkey</i>
+        </footer>
       </div>
     </div>
   );

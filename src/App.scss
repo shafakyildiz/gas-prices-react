@@ -2,6 +2,24 @@ $pri: #128CFC;
 $sec: #e0e0d4;
 $dark-pri: #0B5AA2;
 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer-price {
+  font-size: 12px;
+}
+
 body {
   background-color: $dark-pri;
   color: $sec;
