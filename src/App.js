@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import { useState, useEffect } from "react";
 import axios from "axios";
 
@@ -39,6 +39,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <h1>LPG Fiyatları</h1>
         <ul>
           {data.map((item) => {
             console.log(item.lpg);
