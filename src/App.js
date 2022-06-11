@@ -105,7 +105,6 @@ function App() {
             ></a>{" "}
             |<a href="https://github.com/shafakyildiz" class="fa fa-github"></a>
           </div>
-          <br />
           <i className="footer-price">Prices are valid for Ankara, Turkey</i>
         </footer>
       </div>
