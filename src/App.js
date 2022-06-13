@@ -13,11 +13,11 @@ function App() {
     var dieselUrl = baseUrl + "turkeyDiesel?city=ankara";
     var benzinUrl = baseUrl + "turkeyGasoline?city=ankara";
 
-    var apiKey = "1FkC4bAfQ1jh0Tb9Hxx9ET:2W9TQ6qj8A6SBw4UOpJQzv";
+    var apiKey = "apikey 11MQqiFetO5qdnDbXHIfWz:6sAqfGtqgHkvsTow9UMWuz";
     const fetchData = () => {
       axios.interceptors.request.use(
         (config) => {
-          config.headers.authorization = `apikey ${apiKey}`;
+          config.headers.authorization = apiKey;
           return config;
         },
         (error) => {
